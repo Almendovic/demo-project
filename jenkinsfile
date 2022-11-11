@@ -1,6 +1,7 @@
 node {
     stage('Clone code') {
         git 'https://github.com/mehmetCt/demo-project.git'
+        //to use this change to my repository
     }
 
     stage('Run tests'){
